@@ -1,0 +1,13 @@
+name: CitizensRemove
+main: me.eightballcreates.citizensRemove.CitizensRemove
+version: 1.0
+api-version: 1.20
+depend: [Citizens]
+commands:
+  removecitizen:
+    description: Remove Citizens NPCs by type and owner
+    usage: /removecitizen [type] [uuid]
+permissions:
+  citizensremove.remove:
+    description: Allows removal of Citizens NPCs
+    default: op
